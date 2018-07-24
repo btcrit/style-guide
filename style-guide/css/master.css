@@ -55,8 +55,7 @@ body{
     color: #DD7C10;
 }
 section{
-    //
-    margin: 4rem 0;
+    /* margin: 4rem 0; */
     padding-top: 0.1px;
 }
 .magic{
@@ -103,6 +102,12 @@ p{
 }
 ul{
     padding-left: 1rem;
+}
+.intextlink{
+    color: #10668b;
+}
+.intextlink:hover{
+    color: #DD7C10;
 }
 #logos{
     margin: 2rem 0;
