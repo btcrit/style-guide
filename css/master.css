@@ -186,6 +186,24 @@ a:hover {
   background-color: #DD7C10;
   color: #FBFBFB;
 }
+.b_base {
+  border: 0.15em solid #10668B;
+  background-color: #FBFBFB;
+  color: #10668B;
+}
+.b_base:hover {
+  background-color: #10668B;
+  color: #FBFBFB;
+}
+.b_dark {
+  border: 0.15em solid #1e1e1e;
+  background-color: #FBFBFB;
+  color: #1e1e1e;
+}
+.b_dark:hover {
+  background-color: #1e1e1e;
+  color: #FBFBFB;
+}
 footer {
   margin: 0 -2rem;
 }
