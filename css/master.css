@@ -93,6 +93,7 @@ a:hover {
 }
 .code {
   background-color: #E9EBED;
+  color: #1e1e1e;
   padding: 0.25rem 0.5rem;
   font-family: monospace;
 }
