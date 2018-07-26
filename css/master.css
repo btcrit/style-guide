@@ -232,4 +232,6 @@ footer .notwide {
   background-color: #1e1e1e;
   color: #E9EBED;
   overflow: auto;
+  padding: 1rem;
+  box-sizing: border-box;
 }
