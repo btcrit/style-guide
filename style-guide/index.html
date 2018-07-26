@@ -12,25 +12,25 @@
                 Roboto 700
         -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Roboto:400,700" rel="stylesheet">
+        <!-- For Mobile Users -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div class="header1">
-            <div class="notwide">
+        <div class="header">
+            <div class="notwide flex_container">
                 <img src="./images/hamster.svg" alt="">
                 <h1>BTCRIT Style-Guide</h1>
             </div>
         </div>
-        <div class="header2">
-            <div class="notwide menu">
-                <ul>
-                    <li><a href="#ethos">Ethos</a></li>
-                    <li><a href="#brand">Logo/Name</a></li>
-                    <li><a href="#color">Colors</a></li>
-                    <li><a href="#type">Type</a></li>
-                    <li><a href="#tone">Tone</a></li>
-                    <li><a href="#space">Space</a></li>
-                    <li><a href="#web">Web</a></li>
-                </ul>
+        <div class="navigation flex_container">
+            <div class="notwide">
+                <a href="#ethos">Ethos</a>
+                <a href="#brand">Logo/Name</a>
+                <a href="#color">Colors</a>
+                <a href="#type">Type</a>
+                <a href="#tone">Tone</a>
+                <a href="#space">Space</a>
+                <a href="#web">Web</a>
             </div>
         </div>
         <div class="notwide">
@@ -102,7 +102,7 @@
                     </a>
                     for more information.
                 </p>
-                <div id="logos">
+                <div class="flex_container" id="logos">
                     <img src="./images/hamster.svg" class="dark" alt="">
                     <img src="./images/hamster.svg" class="darkgray" alt="">
                     <img src="./images/hamster.svg" class="base" alt="">
@@ -138,7 +138,7 @@
                 <a class="magic" name="color"></a>
                 <h1>Color Palette</h1>
                 <hr>
-                <div id="colors">
+                <div class="flex_container" id="colors">
                     <div class="swatch">
                         <div class="color dark"></div>
                         <p>
@@ -152,9 +152,15 @@
                         </p>
                     </div>
                     <div class="swatch">
+                        <div class="color gray"></div>
+                        <p>
+                            Gray: #E9EBED
+                        </p>
+                    </div>
+                    <div class="swatch">
                         <div class="color lightgray"></div>
                         <p>
-                            LightGray: #E9EBED
+                            LightGray: #F5F5F5
                         </p>
                     </div>
                     <div class="swatch">
@@ -178,20 +184,40 @@
                 </div>
                 <p>
                     The main color of the logo was extracted as the Accent color.
-                    From there, Base was chosen to complement it.
+                    From there, Base was chosen such that Accent would
+                    complement it.
                 </p>
                 <p>
-                    Dark and Light are standard colors, whereas darkgray and
-                    lightgray are modified to subtly match the Base.
+                    Dark and Light are standard colors. When Base is overlayed
+                    on Dark and Light with low opacity, the result is Darkgray
+                    and Gray. Lightgray is a slightly darker Light, useful for
+                    backgrounds.
                 </p>
                 <p>
-                    In general, Base and the Grayscale variants should be the most
-                    common. The less frequently accent is used, the more powerful
-                    it will be.
+                    Base is a general root color, from which all others arise.
                 </p>
                 <p>
-                    On this page, the background is Light. Text is Dark. Links
-                    are Base, but turn to Accent on Hover.
+                    Light is very close to white. Light causes items to 'pop' off
+                    of a LightGray background.
+                </p>
+                <p>
+                    LightGray is very neutral, and is ideal for large backgrounds.
+                </p>
+                <p>
+                    Gray has influences from Base, and is good for highlighting
+                    small sections, or sinking an area away from LightGray.
+                </p>
+                <p>
+                    DarkGray is just kinda here, I don't really have a specific
+                    use for it.
+                </p>
+                <p>
+                    Dark is my favorite shade of gray. It's roughly off-black,
+                    making it a suitable background and font color.
+                </p>
+                <p>
+                    Accent is more powerful the less it is used. Accent is best
+                    used on link hover events and borders on important things.
                 </p>
             </section>
             <!-- Typography -->
@@ -199,25 +225,135 @@
                 <a class="magic" name="type"></a>
                 <h1>Typography</h1>
                 <hr>
+                <h2>Roboto 700: Impactful, Stand-Out</h2>
+                <p>
+                    For block text, Open Sans 400 was chosen. Serif fonts have
+                    lots of small details distinguishing letters. In print,
+                    these small details make reading easier. On screens however,
+                    serifs are lost into anti-aliasing noise, making Sans-Serif
+                    fonts appear cleaner and easier to read.
+                </p>
+                <p>
+                    Also available:
+                </p>
+                <p>
+                    <em>Open Sans 400i - same as above, but italics.</em>
+                </p>
+                <p style="font-family: Roboto">
+                    Roboto 400, more impactful than Open Sans, without the bold.
+                </p>
             </section>
             <!-- Voice and Writing Style -->
             <section>
                 <a class="magic" name="tone"></a>
                 <h1>Tone, Voice, and General Feel</h1>
                 <hr>
+                <p>
+                    For a writing style that shows what we're about and also
+                    is perfect for a college student audience, look no further
+                    than Chris's 2017-2018 Fall Semester Emails.
+                </p>
+                <p>
+                    That is all. Future paragraphs elaborate on the above.
+                </p>
+                <p>
+                    Chris's emails are friendly, with a subtle touch of humor.
+                    The Complexity indicator is a creative way to indicate the
+                    technicality of the meetings topic.
+                </p>
+                <p>
+                    Chris presents topics in easy to understand analogies that
+                    won't scare away those new to the blockchain scene. Chris
+                    reminds us that <span style="font-family: Roboto; font-weight:700;">BTCRIT</span>
+                    is made of human beings, we're aware that this subject is
+                    dense, and we can be approached with questions.
+                </p>
+                <p>
+                    We are not selling enterprise solutions to a board of
+                    investors. We're helping other students learn why we think
+                    this stuff is <em>cool</em>.
+                </p>
+                <p>
+                    If you enjoy writing the content, your readers will enjoy
+                    reading it.
+                </p>
+                <p>
+                    <a href="./email_example.pdf" class="intextlink">One of Chris's many emails.</a>
+                </p>
             </section>
             <!-- WhiteSpace, Margins -->
             <section>
                 <a class="magic" name="space"></a>
                 <h1>Use of space</h1>
                 <hr>
+                <p>
+                    All elements should be separated by at least <b>1rem</b>.
+                    This should be accomplished via Margins, though additional
+                    spacing with padding is appropriate in some situations.
+                </p>
+                <p>
+                    Use <span class='code'>overflow: auto</span> to prevent
+                    margins from overflowing the parent without adding unnesesary
+                    padding.
+                </p>
+                <p>
+                    1rem margins should be everywhere. Items in boxes should
+                    <em>also</em> employ 1rem padding.
+                </p>
+                <div class="flex_container">
+                    <div class="box">
+                        Box1
+                    </div>
+                    <div class="box">
+                        Box2
+                    </div>
+                    <div class="box">
+                        Box3
+                    </div>
+                    <div class="box">
+                        Box with more content.
+                    </div>
+                </div>
+                <p>
+                    <b>REM</b> units should be used in most cases, as they are
+                    consistent accross elements. <b>EM</b> units should be used
+                    for spacing that changes with element font size, such as the
+                    <span class="code">line-height</span> property.
+                </p>
             </section>
             <!-- Web Elements -->
             <section>
                 <a class="magic" name="web"></a>
                 <h1>Web Elements</h1>
                 <hr>
+                <h2>Box-Shadow</h2>
+                <div class="box">
+                    Hi! I'm a box.
+                </div>
+                <h2>Buttons!</h2>
+                <p>
+                    I like this part. Let's make some buttons.
+                </p>
+                <div class="flex_container">
+                    <a href="#" class="button b_accent">
+                        Click This!
+                    </a>
+                    <a href="#" class="button b_accent">
+                        Another One!
+                    </a>
+                    <a href="#" class="button b_accent">
+                        Me! Click Me!
+                    </a>
+                </div>
+                <h2>Footer:</h2>
             </section>
         </div>
+        <footer>
+            <div class="notwide">
+                <p>
+                    I need to make more buttons, style the footer.
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
